@@ -1,0 +1,15 @@
+name: ambiente_verilog
+channels:
+  - conda-forge
+  - litex-hub
+dependencies:
+  - make
+  - git
+  - pip
+  - litex-hub::yosys
+  - conda-forge::iverilog
+  - netlistsvg
+
+  # Packages installed from PyPI
+  - pip:
+    - -r requirements.txt
