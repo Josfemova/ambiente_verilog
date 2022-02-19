@@ -1,5 +1,3 @@
-`timescale 1ns/1ps
-
 module mux4a1Bus(
     input [3:0] D0, D1, D2, D3,
     input [1:0] S,
